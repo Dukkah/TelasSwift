@@ -17,6 +17,18 @@
 		A4CB024C2A52F2FC00D166DF /* TelasSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB024B2A52F2FC00D166DF /* TelasSwiftTests.swift */; };
 		A4CB02562A52F2FC00D166DF /* TelasSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02552A52F2FC00D166DF /* TelasSwiftUITests.swift */; };
 		A4CB02582A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02572A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift */; };
+		A4CB026D2A52F73500D166DF /* elaAzulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB026C2A52F73500D166DF /* elaAzulViewController.swift */; };
+		A4CB026F2A52F76D00D166DF /* TelaVerdeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB026E2A52F76D00D166DF /* TelaVerdeViewController.swift */; };
+		A4CB02712A52F79500D166DF /* TelaVermelhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02702A52F79500D166DF /* TelaVermelhaViewController.swift */; };
+		A4CB02732A52F8CD00D166DF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02722A52F8CD00D166DF /* Coordinator.swift */; };
+		A4CB02752A52F8E300D166DF /* AzulCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02742A52F8E300D166DF /* AzulCoordinator.swift */; };
+		A4CB02772A52F8F000D166DF /* VerdeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02762A52F8F000D166DF /* VerdeCoordinator.swift */; };
+		A4CB02792A52F8FD00D166DF /* VermelhoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02782A52F8FD00D166DF /* VermelhoCoordinator.swift */; };
+		A4CB027B2A52FCDA00D166DF /* TelaAzulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB027A2A52FCDA00D166DF /* TelaAzulView.swift */; };
+		A4CB027D2A52FDED00D166DF /* TelaVerdeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB027C2A52FDED00D166DF /* TelaVerdeView.swift */; };
+		A4CB027F2A52FDF700D166DF /* TelaVermelhaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB027E2A52FDF700D166DF /* TelaVermelhaView.swift */; };
+		A4CB02822A5314FE00D166DF /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02812A5314FD00D166DF /* ButtonDefault.swift */; };
+		A4CB02852A53155D00D166DF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02842A53155D00D166DF /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		A4CB02512A52F2FC00D166DF /* TelasSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelasSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CB02552A52F2FC00D166DF /* TelasSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelasSwiftUITests.swift; sourceTree = "<group>"; };
 		A4CB02572A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelasSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4CB026C2A52F73500D166DF /* elaAzulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elaAzulViewController.swift; sourceTree = "<group>"; };
+		A4CB026E2A52F76D00D166DF /* TelaVerdeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeViewController.swift; sourceTree = "<group>"; };
+		A4CB02702A52F79500D166DF /* TelaVermelhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelhaViewController.swift; sourceTree = "<group>"; };
+		A4CB02722A52F8CD00D166DF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A4CB02742A52F8E300D166DF /* AzulCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzulCoordinator.swift; sourceTree = "<group>"; };
+		A4CB02762A52F8F000D166DF /* VerdeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeCoordinator.swift; sourceTree = "<group>"; };
+		A4CB02782A52F8FD00D166DF /* VermelhoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VermelhoCoordinator.swift; sourceTree = "<group>"; };
+		A4CB027A2A52FCDA00D166DF /* TelaAzulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzulView.swift; sourceTree = "<group>"; };
+		A4CB027C2A52FDED00D166DF /* TelaVerdeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeView.swift; sourceTree = "<group>"; };
+		A4CB027E2A52FDF700D166DF /* TelaVermelhaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelhaView.swift; sourceTree = "<group>"; };
+		A4CB02812A5314FD00D166DF /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		A4CB02842A53155D00D166DF /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +125,9 @@
 		A4CB02302A52F2F800D166DF /* TelasSwift */ = {
 			isa = PBXGroup;
 			children = (
-				A4CB02312A52F2F800D166DF /* AppDelegate.swift */,
-				A4CB02332A52F2F800D166DF /* SceneDelegate.swift */,
-				A4CB02352A52F2F800D166DF /* ViewController.swift */,
-				A4CB02372A52F2F800D166DF /* Main.storyboard */,
-				A4CB023D2A52F2FB00D166DF /* Assets.xcassets */,
-				A4CB023F2A52F2FB00D166DF /* LaunchScreen.storyboard */,
+				A4CB02652A52F51B00D166DF /* Source */,
+				A4CB02642A52F50B00D166DF /* Resource */,
 				A4CB02422A52F2FB00D166DF /* Info.plist */,
-				A4CB023A2A52F2F800D166DF /* TelasSwift.xcdatamodeld */,
 			);
 			path = TelasSwift;
 			sourceTree = "<group>";
@@ -128,6 +147,95 @@
 				A4CB02572A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift */,
 			);
 			path = TelasSwiftUITests;
+			sourceTree = "<group>";
+		};
+		A4CB02642A52F50B00D166DF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB02312A52F2F800D166DF /* AppDelegate.swift */,
+				A4CB02332A52F2F800D166DF /* SceneDelegate.swift */,
+				A4CB02352A52F2F800D166DF /* ViewController.swift */,
+				A4CB023D2A52F2FB00D166DF /* Assets.xcassets */,
+				A4CB02372A52F2F800D166DF /* Main.storyboard */,
+				A4CB023F2A52F2FB00D166DF /* LaunchScreen.storyboard */,
+				A4CB023A2A52F2F800D166DF /* TelasSwift.xcdatamodeld */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A4CB02652A52F51B00D166DF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB02832A53154600D166DF /* Extension */,
+				A4CB02802A5314CC00D166DF /* Infrastructure */,
+				A4CB02672A52F53700D166DF /* Coordinator */,
+				A4CB02662A52F52E00D166DF /* Controller */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A4CB02662A52F52E00D166DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB026B2A52F72400D166DF /* Vermelho */,
+				A4CB026A2A52F71F00D166DF /* Verde */,
+				A4CB02682A52F70C00D166DF /* Azul */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4CB02672A52F53700D166DF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB02722A52F8CD00D166DF /* Coordinator.swift */,
+				A4CB02742A52F8E300D166DF /* AzulCoordinator.swift */,
+				A4CB02762A52F8F000D166DF /* VerdeCoordinator.swift */,
+				A4CB02782A52F8FD00D166DF /* VermelhoCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A4CB02682A52F70C00D166DF /* Azul */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB026C2A52F73500D166DF /* elaAzulViewController.swift */,
+				A4CB027A2A52FCDA00D166DF /* TelaAzulView.swift */,
+			);
+			path = Azul;
+			sourceTree = "<group>";
+		};
+		A4CB026A2A52F71F00D166DF /* Verde */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB026E2A52F76D00D166DF /* TelaVerdeViewController.swift */,
+				A4CB027C2A52FDED00D166DF /* TelaVerdeView.swift */,
+			);
+			path = Verde;
+			sourceTree = "<group>";
+		};
+		A4CB026B2A52F72400D166DF /* Vermelho */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB02702A52F79500D166DF /* TelaVermelhaViewController.swift */,
+				A4CB027E2A52FDF700D166DF /* TelaVermelhaView.swift */,
+			);
+			path = Vermelho;
+			sourceTree = "<group>";
+		};
+		A4CB02802A5314CC00D166DF /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB02812A5314FD00D166DF /* ButtonDefault.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		A4CB02832A53154600D166DF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB02842A53155D00D166DF /* UIColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +369,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CB02732A52F8CD00D166DF /* Coordinator.swift in Sources */,
+				A4CB02792A52F8FD00D166DF /* VermelhoCoordinator.swift in Sources */,
+				A4CB02712A52F79500D166DF /* TelaVermelhaViewController.swift in Sources */,
+				A4CB026D2A52F73500D166DF /* elaAzulViewController.swift in Sources */,
+				A4CB02772A52F8F000D166DF /* VerdeCoordinator.swift in Sources */,
+				A4CB02852A53155D00D166DF /* UIColor.swift in Sources */,
 				A4CB02362A52F2F800D166DF /* ViewController.swift in Sources */,
 				A4CB023C2A52F2F800D166DF /* TelasSwift.xcdatamodeld in Sources */,
+				A4CB02822A5314FE00D166DF /* ButtonDefault.swift in Sources */,
 				A4CB02322A52F2F800D166DF /* AppDelegate.swift in Sources */,
 				A4CB02342A52F2F800D166DF /* SceneDelegate.swift in Sources */,
+				A4CB027F2A52FDF700D166DF /* TelaVermelhaView.swift in Sources */,
+				A4CB027D2A52FDED00D166DF /* TelaVerdeView.swift in Sources */,
+				A4CB02752A52F8E300D166DF /* AzulCoordinator.swift in Sources */,
+				A4CB027B2A52FCDA00D166DF /* TelaAzulView.swift in Sources */,
+				A4CB026F2A52F76D00D166DF /* TelaVerdeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
