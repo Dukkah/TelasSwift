@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4CB02322A52F2F800D166DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02312A52F2F800D166DF /* AppDelegate.swift */; };
+		A4CB02342A52F2F800D166DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02332A52F2F800D166DF /* SceneDelegate.swift */; };
+		A4CB02362A52F2F800D166DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02352A52F2F800D166DF /* ViewController.swift */; };
+		A4CB02392A52F2F800D166DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CB02372A52F2F800D166DF /* Main.storyboard */; };
+		A4CB023C2A52F2F800D166DF /* TelasSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4CB023A2A52F2F800D166DF /* TelasSwift.xcdatamodeld */; };
+		A4CB023E2A52F2FB00D166DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CB023D2A52F2FB00D166DF /* Assets.xcassets */; };
+		A4CB02412A52F2FB00D166DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CB023F2A52F2FB00D166DF /* LaunchScreen.storyboard */; };
+		A4CB024C2A52F2FC00D166DF /* TelasSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB024B2A52F2FC00D166DF /* TelasSwiftTests.swift */; };
+		A4CB02562A52F2FC00D166DF /* TelasSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02552A52F2FC00D166DF /* TelasSwiftUITests.swift */; };
+		A4CB02582A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB02572A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4CB02482A52F2FC00D166DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CB02262A52F2F800D166DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CB022D2A52F2F800D166DF;
+			remoteInfo = TelasSwift;
+		};
+		A4CB02522A52F2FC00D166DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CB02262A52F2F800D166DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CB022D2A52F2F800D166DF;
+			remoteInfo = TelasSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4CB022E2A52F2F800D166DF /* TelasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB02312A52F2F800D166DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4CB02332A52F2F800D166DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4CB02352A52F2F800D166DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4CB02382A52F2F800D166DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4CB023B2A52F2F800D166DF /* TelasSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelasSwift.xcdatamodel; sourceTree = "<group>"; };
+		A4CB023D2A52F2FB00D166DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4CB02402A52F2FB00D166DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4CB02422A52F2FB00D166DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CB02472A52F2FC00D166DF /* TelasSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelasSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB024B2A52F2FC00D166DF /* TelasSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelasSwiftTests.swift; sourceTree = "<group>"; };
+		A4CB02512A52F2FC00D166DF /* TelasSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelasSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB02552A52F2FC00D166DF /* TelasSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelasSwiftUITests.swift; sourceTree = "<group>"; };
+		A4CB02572A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelasSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4CB022B2A52F2F800D166DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB02442A52F2FC00D166DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB024E2A52F2FC00D166DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4CB02252A52F2F800D166DF = {
+			isa = PBXGroup;
+			children = (
+				A4CB02302A52F2F800D166DF /* TelasSwift */,
+				A4CB024A2A52F2FC00D166DF /* TelasSwiftTests */,
+				A4CB02542A52F2FC00D166DF /* TelasSwiftUITests */,
+				A4CB022F2A52F2F800D166DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4CB022F2A52F2F800D166DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB022E2A52F2F800D166DF /* TelasSwift.app */,
+				A4CB02472A52F2FC00D166DF /* TelasSwiftTests.xctest */,
+				A4CB02512A52F2FC00D166DF /* TelasSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4CB02302A52F2F800D166DF /* TelasSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB02312A52F2F800D166DF /* AppDelegate.swift */,
+				A4CB02332A52F2F800D166DF /* SceneDelegate.swift */,
+				A4CB02352A52F2F800D166DF /* ViewController.swift */,
+				A4CB02372A52F2F800D166DF /* Main.storyboard */,
+				A4CB023D2A52F2FB00D166DF /* Assets.xcassets */,
+				A4CB023F2A52F2FB00D166DF /* LaunchScreen.storyboard */,
+				A4CB02422A52F2FB00D166DF /* Info.plist */,
+				A4CB023A2A52F2F800D166DF /* TelasSwift.xcdatamodeld */,
+			);
+			path = TelasSwift;
+			sourceTree = "<group>";
+		};
+		A4CB024A2A52F2FC00D166DF /* TelasSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB024B2A52F2FC00D166DF /* TelasSwiftTests.swift */,
+			);
+			path = TelasSwiftTests;
+			sourceTree = "<group>";
+		};
+		A4CB02542A52F2FC00D166DF /* TelasSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB02552A52F2FC00D166DF /* TelasSwiftUITests.swift */,
+				A4CB02572A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift */,
+			);
+			path = TelasSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4CB022D2A52F2F800D166DF /* TelasSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB025B2A52F2FC00D166DF /* Build configuration list for PBXNativeTarget "TelasSwift" */;
+			buildPhases = (
+				A4CB022A2A52F2F800D166DF /* Sources */,
+				A4CB022B2A52F2F800D166DF /* Frameworks */,
+				A4CB022C2A52F2F800D166DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelasSwift;
+			productName = TelasSwift;
+			productReference = A4CB022E2A52F2F800D166DF /* TelasSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4CB02462A52F2FC00D166DF /* TelasSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB025E2A52F2FC00D166DF /* Build configuration list for PBXNativeTarget "TelasSwiftTests" */;
+			buildPhases = (
+				A4CB02432A52F2FC00D166DF /* Sources */,
+				A4CB02442A52F2FC00D166DF /* Frameworks */,
+				A4CB02452A52F2FC00D166DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CB02492A52F2FC00D166DF /* PBXTargetDependency */,
+			);
+			name = TelasSwiftTests;
+			productName = TelasSwiftTests;
+			productReference = A4CB02472A52F2FC00D166DF /* TelasSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4CB02502A52F2FC00D166DF /* TelasSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB02612A52F2FC00D166DF /* Build configuration list for PBXNativeTarget "TelasSwiftUITests" */;
+			buildPhases = (
+				A4CB024D2A52F2FC00D166DF /* Sources */,
+				A4CB024E2A52F2FC00D166DF /* Frameworks */,
+				A4CB024F2A52F2FC00D166DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CB02532A52F2FC00D166DF /* PBXTargetDependency */,
+			);
+			name = TelasSwiftUITests;
+			productName = TelasSwiftUITests;
+			productReference = A4CB02512A52F2FC00D166DF /* TelasSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4CB02262A52F2F800D166DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A4CB022D2A52F2F800D166DF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A4CB02462A52F2FC00D166DF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A4CB022D2A52F2F800D166DF;
+					};
+					A4CB02502A52F2FC00D166DF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A4CB022D2A52F2F800D166DF;
+					};
+				};
+			};
+			buildConfigurationList = A4CB02292A52F2F800D166DF /* Build configuration list for PBXProject "TelasSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4CB02252A52F2F800D166DF;
+			productRefGroup = A4CB022F2A52F2F800D166DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CB022D2A52F2F800D166DF /* TelasSwift */,
+				A4CB02462A52F2FC00D166DF /* TelasSwiftTests */,
+				A4CB02502A52F2FC00D166DF /* TelasSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4CB022C2A52F2F800D166DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB02412A52F2FB00D166DF /* LaunchScreen.storyboard in Resources */,
+				A4CB023E2A52F2FB00D166DF /* Assets.xcassets in Resources */,
+				A4CB02392A52F2F800D166DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB02452A52F2FC00D166DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB024F2A52F2FC00D166DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4CB022A2A52F2F800D166DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB02362A52F2F800D166DF /* ViewController.swift in Sources */,
+				A4CB023C2A52F2F800D166DF /* TelasSwift.xcdatamodeld in Sources */,
+				A4CB02322A52F2F800D166DF /* AppDelegate.swift in Sources */,
+				A4CB02342A52F2F800D166DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB02432A52F2FC00D166DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB024C2A52F2FC00D166DF /* TelasSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB024D2A52F2FC00D166DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB02582A52F2FC00D166DF /* TelasSwiftUITestsLaunchTests.swift in Sources */,
+				A4CB02562A52F2FC00D166DF /* TelasSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4CB02492A52F2FC00D166DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CB022D2A52F2F800D166DF /* TelasSwift */;
+			targetProxy = A4CB02482A52F2FC00D166DF /* PBXContainerItemProxy */;
+		};
+		A4CB02532A52F2FC00D166DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CB022D2A52F2F800D166DF /* TelasSwift */;
+			targetProxy = A4CB02522A52F2FC00D166DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4CB02372A52F2F800D166DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CB02382A52F2F800D166DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4CB023F2A52F2FB00D166DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CB02402A52F2FB00D166DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4CB02592A52F2FC00D166DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4CB025A2A52F2FC00D166DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4CB025C2A52F2FC00D166DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelasSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DS.TelasSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4CB025D2A52F2FC00D166DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelasSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DS.TelasSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4CB025F2A52F2FC00D166DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DS.TelasSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelasSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelasSwift";
+			};
+			name = Debug;
+		};
+		A4CB02602A52F2FC00D166DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DS.TelasSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelasSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelasSwift";
+			};
+			name = Release;
+		};
+		A4CB02622A52F2FC00D166DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DS.TelasSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelasSwift;
+			};
+			name = Debug;
+		};
+		A4CB02632A52F2FC00D166DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DS.TelasSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelasSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4CB02292A52F2F800D166DF /* Build configuration list for PBXProject "TelasSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB02592A52F2FC00D166DF /* Debug */,
+				A4CB025A2A52F2FC00D166DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB025B2A52F2FC00D166DF /* Build configuration list for PBXNativeTarget "TelasSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB025C2A52F2FC00D166DF /* Debug */,
+				A4CB025D2A52F2FC00D166DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB025E2A52F2FC00D166DF /* Build configuration list for PBXNativeTarget "TelasSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB025F2A52F2FC00D166DF /* Debug */,
+				A4CB02602A52F2FC00D166DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB02612A52F2FC00D166DF /* Build configuration list for PBXNativeTarget "TelasSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB02622A52F2FC00D166DF /* Debug */,
+				A4CB02632A52F2FC00D166DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4CB023A2A52F2F800D166DF /* TelasSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4CB023B2A52F2F800D166DF /* TelasSwift.xcdatamodel */,
+			);
+			currentVersion = A4CB023B2A52F2F800D166DF /* TelasSwift.xcdatamodel */;
+			path = TelasSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4CB02262A52F2F800D166DF /* Project object */;
+}
